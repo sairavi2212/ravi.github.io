@@ -412,6 +412,14 @@ a:hover {
     }
 }
 
+.IIIT-link {
+    color: black;
+}
+
+.IIIT_dark {
+    color: white;
+}
+
 
 .animate_heading {
     animation: head 4s infinite ease-in-out forwards;

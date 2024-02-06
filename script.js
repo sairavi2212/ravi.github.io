@@ -27,9 +27,13 @@ function myFunction() {
     elements.forEach(function(element){
         element.classList.toggle('text_color_dark');
     });
+    var elements=document.querySelectorAll('.IIIT-link');
+    elements.forEach(function(element){
+        element.classList.toggle('IIIT_dark');
+    });
 }
 
-let isLiked = false;
+let isLiked = false;    
 let likeCount = 0;
 
 function toggleLike() {
