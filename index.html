@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style-final.css">
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+
+
+<body id="body">
+    <script src="script.js"></script>
+    <nav id="top-bar">
+        <div class="pfp animate_heading">Ananthula Sai Ravichandra</div>
+        <div>
+            <ul style="display: flex;gap:30px;list-style: none;font-size: 2vw;font-family: cursive;">
+                <li><a href="#about" class="animate_heading" class="text">About Me</a></li>
+                <li><a href="#edu-background" class="animate_heading">Educational Background</a></li>
+                <li><a href="#Achievements" class="animate_heading">Achievements</a></li>
+                <li><a href="#skills" class="animate_heading">Skills</a></li>
+                <li><a href="#Blog" class="animate_heading">Blog</a></li>
+                <button id="myButton" onclick="myFunction()" style="background-color: cyan;">Toggle Background
+                    Color</button>
+            </ul>
+    </nav>
+
+
+    <nav id="sec_topbar">
+        <div class="pfp text_color ">Ananthula Sai Ravichandra</div>
+        <div class="menu">
+            <div class="icons" onclick="toggle()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggle()">About Me</a></li>
+                <li><a href="#edu-background" onclick="toggle()">Educational Background</a></li>
+                <li><a href="#Achievements" onclick="toggle()">Achievements</a></li>
+                <li><a href="#skills" onclick="toggle()">Skills</a></li>
+                <li><a href="#Blog" onclick="toggle()">Blog</a></li>
+                <button id="myButton" onclick="myFunction()" style="background-color: cyan;">Toggle Background
+                    Color</button>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="first_page">
+            <div class="pic">
+                <img src="final_pfp_2.webp" alt="photo" class="" style="border-radius: 50%;">
+            </div>
+            <div class="section_text">
+                <p class="text" style="font-size: 2.8vw;"> Hello! I'm</p>
+                <p class="text" class="title" style="font-size: 3.5vw;font-weight: bold;margin-right: -10%;">Ananthula Sai Ravichandra</p>
+                <br>
+                <p class="text" style="font-size: 1.8vw;">Connect with me</p>
+                <div id="socials">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkNvO9a-Qu_gD5e3YNq80JmuChAyEWsiNQ8GqUJHFGYQ&s"
+                        alt="linkedin-logo" class="social_icons"
+                        onclick="location.href='https://www.linkedin.com/in/sai-ravichandra-ananthula-b28a2629b/'"
+                        title="LinkedIn">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-code-forces-3629285-3031869.png"
+                        alt="codeforces logo" class="social_icons"
+                        onclick="location.href='https://codeforces.com/profile/sai_ravi'" title="Codeforces">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr-Qa8tV2iGrgnSUJV5am3eiZ1q-WP0nJWAK0UFoBUMw&s"
+                        alt="Telegram-Logo" class="social_icons" onclick="location.href=''" title="Telegram">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFzolJ8X7CihAs6ncM5JYB8N9oZq3FS6FQHQ&usqp=CAU"
+                        alt="Github" class="social_icons" onclick="location.href='https://github.com/sairavi2212'"
+                        title="GitHub">
+                    <a href="mailto:asairavichandra@gmail.com">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+                            alt="G-Mail logo" title="G-Mail" class="social_icons">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr class="line-initial">
+    <section id="about">
+        <p class="text animate_heading edu" style="text-align: center;font-weight: 700;font-size: 2.8vw;">
+            About
+            Me</p>
+        <div style="display: flex;">
+            <div style="width: 100%;display: none;"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8kuvYve8xgpE-O4tvcSUyaEtWDiorYfySwg&usqp=CAU"
+                    alt="student" style="width: 50%;height: 50%;"></div>
+            <div class="about_me">
+                <p
+                    style="text-align: center;font-size: 1.9vw;font-family: cursive;font-weight: bold;margin-top: 2.5vw;">
+                    I never know what to tell people about me. But there you go!</p>
+                <p class="text" style="font-size: 1.9vw;font-family: cursive;">
+                    Hey! I'm Sai Ravichandra, Glad that you want to know about me. I am a first year student at IIIT
+                    Hyderabad, pursuing B.Tech in Computer Science and Engineering 💻. Born and brought up in Hyderabad,
+                    I joined IIIT-H after clearing the JEE Entrance Examination 📚 in the year 2023. I love to follow
+                    sports, magic, solving puzzles and playing chess, but most of all, I love learning new things.
+                    <br><br>
+                    People say,follow your heart and guess what, I actually did and it led me to the fridge.Yup! I am a
+                    connoisseur of good food and music. <br><br>
+                    I would love to play cricket 🏏 and chess ♟️ though due to JEE I was not able to play regularly. I
+                    am a foodie and would love to watch movies<br><br>That's all about me!! 😊
+                </p>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <hr class="line-initial"><br><br><br>
+    <section id="edu-background">
+        <p class="text edu animate_heading">My Education</p><br>
+        <div class="edu-contents">
+            <div class="left-border">
+                <div style="display: flex;flex-direction: row;justify-content: space-around;">
+                    <div style="padding-left: 6%;width: 60%;">
+                        <div style="width: 50%;">
+                            <h4>2023-Present</h4>
+                        </div>
+                        <div style="width: 50%;">
+                            <h3>B-tech</h3>
+                        </div>
+                        <div style="width: 50%;">
+                            <p class="text" style="line-height: 2vw;">Currently, I am doing my B-Tech in CSE at IIIT-H.
+                                I joined this institute in the July month of year 2023.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <div style="margin: 0 auto ;">
+                        <div
+                            style="display: flex;flex-direction: column;align-items: center;justify-content: space-between;">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/International_Institute_of_Information_Technology%2C_Hyderabad_logo.png"
+                                alt="iiith-logo" style="max-width: 60%;height: auto;">
+                            <p><a href="About-IIITH.pdf" style="font-size: 2vw;" target="_blank">Click here to know
+                                    about IIIT-H</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-border">
+                <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                    <div style="padding-left: 5%;width: 65%;">
+                        <div style="width: 50%;">
+                            <h4>2021-2023</h4>
+                        </div>
+
+                        <div style="width: 50%;">
+                            <h3>Intermediate</h3>
+                        </div>
+                        <div style="width: 40%;">
+                            <p class="text" style="line-height: 2vw;">I have done my Intermediate at FIITJEE Hyderabad.
+                                I am so lucky to get such teachers who helped me a lot in cracking JEE.
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin: 0 auto;margin-top: 1%;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkubyS5CVRqVGOlzOKCTNalshIZWqWHFBVlHBbRJOBQ&s"
+                            alt="fiitjee logo" style="max-width: 80%;height: auto;align-self: center;">
+                    </div>
+                </div>
+            </div>
+            <div class="left-border">
+                <div style="display: flex;flex-direction: row;justify-content: space-around;">
+                    <div style="padding-left: 5%;width: 50%;margin-top: 1.2vw;">
+                        <div style="width: 50%;">
+                            <h4>2018-2021</h4>
+                        </div>
+                        <div style="width: 50%;">
+                            <h3>8th-10th Standard </h3>
+                        </div>
+                        <div style="width: 50%;">
+                            <p class="text" style="line-height: 2vw;">I studied in Sri Chaitanya School at Kompally from
+                                8th to 10th Standard.
+                                I really thank them since they were the ones who laid my JEE Foundation.
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin: 0 auto;margin-top: 2%;margin-right: 10%;align-self: center;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XXm7Ynbz-x0GO1SYqeufVVKoIIa-reaqstL9WNHQEA&s"
+                            alt="srichaitanya-logo" style="max-width: 65%;height: auto;margin-left: 20%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <hr class="line-initial"><br><br><br>
+    <section id="Achievements">
+        <p class="text edu animate_heading">My Achievements</p><br><br><br><br>
+        <div>
+            <div class="ac1">
+                <div class="full-box-1 ">
+                    <div class="animate_box "
+                        style="margin-left: 15%;box-sizing: border-box;border: 4px solid chartreuse;display: flex;flex-direction: column;align-items: center;justify-content: center;border-radius: 20%;">
+                        <div>
+                            <img src="https://i.pinimg.com/736x/71/93/be/7193be6eeb3ab6fc8688e3835f238c49.jpg"
+                                alt="excellence-hat" class="achieve-img">
+                        </div>
+                        <div class="achieve-1" style="box-sizing: border-box">
+                            <p class="text"
+                                style="font-size: 2.4vw;text-align: center;margin: 0 auto ;margin-top: 3vw;font-weight: bold;line-height: 3.5vw;">
+                                Secured AIR-485
+                                Rank in JEE MAINS 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="full-box-2">
+                    <div class="animate_box "
+                        style="margin-right: 15%;box-sizing: border-box;border: 4px solid chartreuse;display: flex;flex-direction: column;align-items: center;justify-content: center;border-radius: 20%;background-color: aquamarine;">
+                        <div>
+                            <img src="https://i.pinimg.com/736x/71/93/be/7193be6eeb3ab6fc8688e3835f238c49.jpg"
+                                alt="excellence-hat" class="achieve-img">
+                        </div>
+                        <div class="achieve-1" style="box-sizing: border-box">
+                            <p class="text"
+                                style="font-size: 2.4vw;text-align: center;margin: 0 auto ;margin-top: 3vw;font-weight: bold;line-height: 3.5vw;">
+                                Secured AIR-1543
+                                Rank in JEE ADVANCED 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="ac2">
+                <div class="full-box-1">
+                    <div class="animate_box "
+                        style="margin-left: 15%;box-sizing: border-box;border: 4px solid chartreuse;display: flex;flex-direction: column;align-items: center;justify-content: center;border-radius: 20%;background-color: aquamarine;">
+                        <div>
+                            <img src="https://i.pinimg.com/736x/71/93/be/7193be6eeb3ab6fc8688e3835f238c49.jpg"
+                                alt="excellence-hat" class="achieve-img">
+                        </div>
+                        <div class="achieve-1" style="box-sizing: border-box">
+                            <p class="text"
+                                style="font-size: 2.4vw;text-align: center;margin: 0 auto ;margin-top: 3vw;font-weight: bold;line-height: 3.5vw;">
+                                Cleared NTSE STAGE-1 with State Rank- 5 </p>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="full-box-2">
+                    <div class="animate_box "
+                        style="margin-right: 15%;box-sizing: border-box;border: 4px solid chartreuse;display: flex;flex-direction: column;align-items: center;justify-content: center;border-radius: 20%;background-color: aquamarine;">
+                        <div>
+                            <img src="https://i.pinimg.com/736x/71/93/be/7193be6eeb3ab6fc8688e3835f238c49.jpg"
+                                alt="excellence-hat" class="achieve-img">
+                        </div>
+                        <div class="achieve-1" style="box-sizing: border-box">
+                            <p class="text"
+                                style="font-size: 2.4vw;text-align: center;margin: 0 auto ;margin-top: 3vw;font-weight: bold;line-height: 3.5vw;">
+                                Secured GOLD MEDAL in INTSO Olympiad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <hr class="line-initial"><br><br><br>
+    <section id="skills">
+        <p class="text edu animate_heading">My Skills</p><br><br><br><br><br><br><br>
+        <div style="display: flex;justify-content: space-around;align-items: center;">
+            <div style="display: flex;flex-direction: column;justify-content: space-between;align-items: center;">
+                <img src="https://i.redd.it/31b2ii8hchi31.jpg" alt="c++ logo" class="logo-X-3">
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1r6s2yRd1CEDG9c9Rjc3TXKd8heGaRIcXo8OQoAndHg&s"
+                    alt="c logo" class="logo-X-3">
+            </div>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="html-css-logo"
+                    class="logo-X-3">
+            </div>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="css-logo"
+                    class="logo-X-3">
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr class="line-initial"><br><br><br>
+    <section id="Blog">
+        <p class="text edu animate_heading">My Blog</p><br><br><br><br><br><br>
+        <div style="display: flex;flex-direction: row;justify-content: space-around;">
+            <a href="blog1.html" target="_blank" class="text animate_blog"
+                style="text-align: left;font-size: 3vw;font-family: cursive;">BLOG-1</a><br><br>
+            <a href="blog2.html" target="_blank" class="text animate_blog"
+                style="text-align: left;font-size: 3vw;font-family: cursive;">BLOG-2</a>
+        </div>
+    </section>
+</body>
+
+</html>
